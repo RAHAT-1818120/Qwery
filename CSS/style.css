@@ -1,0 +1,366 @@
+/* Common CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+h1, h2, h3, h4, h5,h6,p{
+    line-height: 0.8;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* Nav CSS */
+#navbar{
+    width: 100%;
+    position: absolute;
+}
+.nav-wrapper{
+    display: flex;
+    padding-top: 28px;
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.menu ul li a{
+    color: white;
+    margin-left: 60px;
+}
+.menu ul li a:hover{
+    color: black;
+}
+
+/* Banner CSS */
+#banner{
+    background: url(../images/Banner.jpg);
+    padding: 462px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text p{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFC178;
+    padding-bottom: 38px;
+    letter-spacing: 6.5px;
+}
+.banner-text h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+.banner-text h1 span{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 88px;
+    text-transform: capitalize;
+    color: #ffffff;
+    line-height: 100px;
+    display: block;
+}
+
+/* Section 2 CSS */
+#section-two{
+    padding-top: 286px;
+    background: black;
+}
+.section-two-wrapper{
+    display: flex;
+}
+.s-two-text{
+    padding-left: 143px;
+}
+.s-two-text h5{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FBD784;
+    padding-top: 45px;
+    padding-bottom: 13px;
+}
+.s-two-text h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: normal;
+    color: #ffffff;
+    padding-bottom: 13px;
+}
+.s-two-text p{
+    width: 587px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 38px;
+    color: #ffffff;
+    padding-bottom: 66px;
+}
+.s-two-text ul li a{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FBD784
+}
+
+/* Section 3 */
+#section-three{
+    padding-top: 295px;
+    background: black;
+    position: relative;
+}
+.s-three-text{
+    position: absolute;
+    bottom: 33px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+.s-three-text h6{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    padding-bottom: 13px;
+}
+.s-three-text h3{
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87px;
+    color: #ffffff;
+    padding-bottom: 14px;
+}
+.s-three-text p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #ffffff;
+    padding-bottom: 24px;
+}
+.s-three-text ul li a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+
+/* Section 4 */
+#s-four{
+    background: black;
+    padding-top: 295px;
+}
+
+.s-four-wrapper{
+    display: flex;
+}
+.s-four-text{
+padding-top: 153px;
+padding-right: 45px;
+}
+.title{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+.s-four-text h4{
+    width: 663px;
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    line-height: 87px;
+    text-transform: uppercase;
+    padding-bottom: 19px;
+}
+.description{
+    width: 655px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 4000;
+    line-height: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-bottom: 47px;
+}
+.s-four-text ul li a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FBD784;
+    text-transform: uppercase;
+}
+
+/* Footer */
+#footer{
+    padding-top: 199px;
+    background: black;
+}
+.logo-two{
+    width: 20%;
+}
+
+.button-wrapper{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.button p{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.button-wrapper button{
+    margin-left: 18px;
+}
+.button button{
+    background: #FFA343;
+    width: 232px;
+    height: 59px;
+    padding: 18px 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+    border-radius: 10px;
+}
+.last-wrapper{
+    padding-top: 81px;
+}
+.moto{
+    width: 405px;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    color: #ffffff;
+    text-transform: capitalize;
+    padding-bottom: 36px;
+}
+.left-part ul li a{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.last-wrapper{
+    display: flex;
+}
+.left-part{
+    width: 40%;
+}
+.links{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.service p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.service ul li{
+    padding-bottom: 30px;
+}
+.service ul li a{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.about p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.about ul li{
+    padding-bottom: 30px;
+}
+.about ul li a{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.help p{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FBD784;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.help ul li{
+    padding-bottom: 30px;
+}
+.help ul li a{
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.social-media ul{
+    display: flex;
+    width: 117px;
+    justify-content: space-between;
+}
+.credit p{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: capitalize;
+    opacity: 50%;
+    text-align: center;
+    padding-top: 154px;
+    padding-bottom: 25px;
+}
